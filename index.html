@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Lista de Tarefas - Estático</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    /* pequenas customizações */
+    .task-completed { text-decoration: line-through; opacity: .7 }
+  </style>
+</head>
+<body class="bg-gradient-to-b from-slate-900 to-slate-800 min-h-screen flex items-center justify-center p-6">
+  <div class="w-full max-w-xl bg-white/5 backdrop-blur rounded-2xl p-6">
+    <header class="mb-4">
+      <h1 class="text-2xl font-bold text-white">Lista de Tarefas</h1>
+      <p class="text-sm text-slate-300">Leve • Estático • Tailwind + JS</p>
+    </header>
+
+    <form id="form" class="flex gap-3 mb-4">
+      <input id="input" class="flex-1 px-4 py-2 rounded-lg bg-white/5 text-white placeholder:text-slate-400" placeholder="Adicione uma tarefa e pressione Enter" />
+      <button class="px-4 py-2 bg-indigo-500 rounded-lg text-white">Adicionar</button>
+    </form>
+
+    <ul id="list" class="space-y-2"></ul>
+
+    <p id="empty" class="text-slate-400 text-center mt-6">Nenhuma tarefa ainda. Adicione a primeira acima.</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
