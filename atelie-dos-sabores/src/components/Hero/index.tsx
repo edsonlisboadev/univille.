@@ -49,7 +49,7 @@ export default function Hero() {
             <div className={styles.plateRing} />
             <div className={styles.plateInner}>
               <img
-                src="/img/torta.png"
+                src="/imagens/torta.png"
                 alt="Salgados artesanais"
                 className={styles.plateImage}/>  
             </div>
