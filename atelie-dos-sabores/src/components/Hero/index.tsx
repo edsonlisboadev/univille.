@@ -48,12 +48,10 @@ export default function Hero() {
           <div className={styles.imagePlaceholder}>
             <div className={styles.plateRing} />
             <div className={styles.plateInner}>
-              <div className={styles.plateInner}>
               <img
                 src="/img/torta.png"
                 alt="Salgados artesanais"
-                className={styles.plateImage}/>
-                </div>
+                className={styles.plateImage}/>  
             </div>
           </div>
 
