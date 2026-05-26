@@ -1,6 +1,6 @@
 import styles from './Footer.module.css'
 
-const WHATSAPP = 'https://wa.me/5547999999999'
+const WHATSAPP = 'https://wa.me/5547992871152'
 const INSTAGRAM = 'https://instagram.com/ateliedossabores'
 
 const navLinks = [

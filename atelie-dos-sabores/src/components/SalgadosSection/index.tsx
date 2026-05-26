@@ -2,7 +2,7 @@ import { useRef } from 'react'
 import { useReveal } from '../../hooks/useReveal'
 import styles from './SalgadosSection.module.css'
 
-const WHATSAPP_BASE = 'https://wa.me/5547999999999?text='
+const WHATSAPP_BASE = 'https://wa.me/5547992871152?text='
 
 interface Salgado {
   emoji: string

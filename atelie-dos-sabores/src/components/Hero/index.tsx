@@ -2,7 +2,7 @@ import { useRef } from 'react'
 import { useScrollParallax } from '../../hooks/useScrollParallax'
 import styles from './Hero.module.css'
 
-const WHATSAPP = 'https://wa.me/5547999999999?text=Olá!%20Vim%20pelo%20site%20e%20gostaria%20de%20fazer%20um%20pedido.'
+const WHATSAPP = 'https://wa.me/5547992871152?text=Olá!%20Vim%20pelo%20site%20e%20gostaria%20de%20fazer%20um%20pedido.'
 
 export default function Hero() {
   const decorRef = useRef<HTMLDivElement>(null)

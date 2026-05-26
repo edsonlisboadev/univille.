@@ -4,7 +4,7 @@ import { solicitarOrcamento, OrcamentoPayload } from '../../services/api'
 import styles from './KitFestaSection.module.css'
 
 const WHATSAPP_FALLBACK =
-  'https://wa.me/5547999999999?text=Olá!%20Quero%20montar%20um%20kit%20festa.'
+  'https://wa.me/5547992871152?text=Olá!%20Quero%20montar%20um%20kit%20festa.'
 
 const kitItens = [
   { emoji: '🎂', texto: 'Bolo personalizado' },
@@ -53,7 +53,7 @@ export default function KitFestaSection() {
       const msg = encodeURIComponent(
         `Olá! Meu nome é ${form.nome}. Quero um orçamento para o dia ${form.dataEvento}. ${form.observacoes ?? ''}`.trim(),
       )
-      window.open(`https://wa.me/5547999999999?text=${msg}`, '_blank')
+      window.open(`https://wa.me/5547992871152?text=${msg}`, '_blank')
       setStatus('error')
       setErrorMsg('Não foi possível enviar pelo site. Abrindo WhatsApp…')
     }

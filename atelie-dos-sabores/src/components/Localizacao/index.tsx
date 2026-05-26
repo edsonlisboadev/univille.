@@ -3,7 +3,7 @@ import { useReveal } from '../../hooks/useReveal'
 import styles from './Localizacao.module.css'
 
 const MAPS_URL = 'https://maps.google.com/?q=Jardim+Iririu,+Joinville,+SC'
-const WHATSAPP = 'https://wa.me/5547999999999?text=Olá!%20Gostaria%20de%20combinar%20uma%20retirada.'
+const WHATSAPP = 'https://wa.me/5547992871152?text=Olá!%20Gostaria%20de%20combinar%20uma%20retirada.'
 
 const diferenciais = [
   { emoji: '🧁', titulo: 'Produção artesanal', texto: 'Pequenos lotes para garantir qualidade máxima em cada encomenda.' },

@@ -3,7 +3,7 @@ import { useReveal } from '../../hooks/useReveal'
 import { useScrollParallax } from '../../hooks/useScrollParallax'
 import styles from './BrigadeiroSection.module.css'
 
-const WHATSAPP = 'https://wa.me/5547999999999?text=Olá!%20Quero%20encomendar%20brigadeiros%20gourmet!'
+const WHATSAPP = 'https://wa.me/5547992871152?text=Olá!%20Quero%20encomendar%20brigadeiros%20gourmet!'
 
 interface Brigadeiro {
   emoji: string
